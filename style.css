@@ -65,7 +65,8 @@ p {
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
 }
-.description {
+.description,
+.project {
   text-align: left;
 }
 
@@ -108,7 +109,7 @@ p {
   }
 
   h3 {
-    font-size: 12px;
+    font-size: 18px;
   }
   .navigation-links a,
   .primary-link {
@@ -118,9 +119,17 @@ p {
   .navigation-links {
     margin-top: 20px;
   }
-
-  .description {
+  .description h2 {
+    font-weight: bold;
+  }
+  .description,
+  .project {
     text-align: center;
+    font-size: 18px;
+  }
+  .project {
+    font-size: 22px;
+    font-weight: bold;
   }
   .primary-link {
     margin-left: none;
