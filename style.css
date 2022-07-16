@@ -136,4 +136,7 @@ p {
     display: block;
     text-align: center;
   }
+  .about {
+    font-size: 15px;
+  }
 }
